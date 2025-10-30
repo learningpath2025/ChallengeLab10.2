@@ -7,6 +7,7 @@
             int[] nums1 = [1, 2, 3, 0, 0, 0], nums2 = [2, 5, 6];
             int m = 3, n = 3;
             Console.WriteLine($"Combined Array: [ {string.Join(", ", GetCombinedArrays(nums1, nums2, m, n).Select(x => x))} ]");
+            Console.ReadLine();
         }
 
         public static int[] GetCombinedArrays(int[] arr1, int[] arr2, int m, int n)
